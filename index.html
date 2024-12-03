@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./logo.png" alt="">
+    <nav>
+        <a href="www.facebook.com" target="_blank"><img class="redes" src="./icons8-facebook-nuevo.svg" alt=""></a>
+       <a href="www.instagram.com" target="_blank"> <img class="redes" src="./icons8-instagram.svg" alt=""></a>
+       <a href="https://wa.me/5491158295605" target="_blank"> <img class="redes" src="./icons8-whatsapp-30.svg" alt=""></a>
+    </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="cardhero">
+             
+               <h3 class="herotitulo"> Cuidá tu hogar y a tu familia</h3>
+               <p class="parrrafohero">El papel  que se adapta a tus necesidades, ofreciendo calidad, confort y ahorro. <br>
+                <span>Porque lo que te importa, nos importa</span> </p>
+                </div>
+                <img src="./ahorro.jpg" alt="">
+        </section>
+        <h3>Nuestros Productos</h3>
+
+        <section class="nuestrosproductos">
+            <div class="card primero">
+                <img src="./papel.png" alt="">
+                <h4 class="cardtitulo">Papel Higienico</h4>
+                <p class="cardparrafo">Papel Higienico Doble Hoja </p>
+            </div>
+            <div class="card segundo">
+                <img src="./papel.png" alt="">
+                <h4 class="cardtitulo">Papel Higienico</h4>
+                <p class="cardparrafo">Papel Higienico Doble Hoja </p>
+            </div>
+            <div class="card tercero">
+                <img src="./papel.png" alt="">
+                <h4 class="cardtitulo">Papel Higienico</h4>
+                <p class="cardparrafo">Papel Higienico Doble Hoja </p>
+            </div>
+            <div class="card cuarto">
+                <img src="./papel.png" alt="">
+                <h4 class="cardtitulo">Papel Higienico</h4>
+                <p class="cardparrafo">Papel Higienico Doble Hoja </p>
+            </div>
+        </section>
+        <section>
+            <h3 class="contacto">Contacto</h3>
+            <div class="contact-form">
+                <h2>Formulario de Contacto</h2>
+                <form action="enviar_formulario.php" method="POST">
+                  
+                  <!-- Nombre y Apellido -->
+                  <div class="two-columns">
+                    <div class="form-group">
+                      <label for="nombre">Nombre</label>
+                      <input type="text" id="nombre" name="nombre" required>
+                    </div>
+            
+                    <div class="form-group">
+                      <label for="apellido">Apellido</label>
+                      <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                  </div>
+                  
+                  <!-- Teléfono y Email -->
+                  <div class="two-columns">
+                    <div class="form-group">
+                      <label for="telefono">Teléfono</label>
+                      <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+            
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+                  </div>
+            
+                  <!-- Ciudad, Provincia y Empresa -->
+                  <div class="two-columns">
+                    <div class="form-group">
+                      <label for="ciudad">Ciudad</label>
+                      <input type="text" id="ciudad" name="ciudad" required>
+                    </div>
+            
+                    <div class="form-group">
+                      <label for="provincia">Provincia</label>
+                      <input type="text" id="provincia" name="provincia" required>
+                    </div>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="empresa">Empresa</label>
+                    <input type="text" id="empresa" name="empresa">
+                  </div>
+            
+                  <!-- Área de Consultas -->
+                  <div class="form-group">
+                    <label for="consulta">Consultas</label>
+                    <textarea id="consulta" name="consulta" required></textarea>
+                  </div>
+            
+                  <!-- Botón de Enviar -->
+                  <div class="form-group">
+                    <button type="submit">Enviar</button>
+                  </div>
+                </form>
+              </div>
+        </section>
+
+    </main>
+    <script src="https://kit.fontawesome.com/f2cf9cb496.js" crossorigin="anonymous"></script>
+</body>
+</html>
